@@ -1,0 +1,70 @@
+/*
+ * Estilos propios del sistema de parqueadero.
+ * Complementan los estilos de Bootstrap 5.
+ * Autores: Manuel David Rodriguez Garcia y Xiomara Andrea Guillen Ortiz
+ * SENA ficha 3336117
+ */
+
+:root {
+  --color-primario: #1f4e79;
+  --color-secundario: #2e75b6;
+  --bs-primary: #1f4e79;
+  --bs-primary-rgb: 31, 78, 121;
+  --bs-link-color: #1f4e79;
+  --bs-link-color-rgb: 31, 78, 121;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+
+/* Barra de navegación con el color institucional del proyecto */
+.bg-primary-subtle-custom {
+  background-color: var(--color-primario);
+}
+
+/* Logo cuadrado con la letra P */
+.logo-p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: var(--color-primario);
+  font-weight: 800;
+}
+
+/* Botones primarios con el color del proyecto */
+.btn-primary {
+  --bs-btn-bg: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-secundario);
+  --bs-btn-hover-border-color: var(--color-secundario);
+  --bs-btn-active-bg: #173d5f;
+  --bs-btn-disabled-bg: var(--color-primario);
+  --bs-btn-disabled-border-color: var(--color-primario);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-primario);
+  --bs-btn-hover-border-color: var(--color-primario);
+}
+
+/* Encabezado destacado de la página de inicio */
+.hero {
+  background: linear-gradient(
+    135deg,
+    var(--color-primario),
+    var(--color-secundario)
+  );
+  color: #ffffff;
+}
+
+/* Encabezado de la tabla */
+.table-primary {
+  --bs-table-bg: #deeaf6;
+}
